@@ -1,0 +1,19 @@
+name: Webathon Theme
+type: theme
+description: A theme based on the Webathon brand.
+package: other
+core: 8.x
+
+regions:
+  header: 'Header'
+  main_navigation: 'Main Navigation'
+  content: 'Main Content'
+  footer: 'Footer'
+  
+libraries:
+  - webathon_theme/global-styling
+  - webathon_theme/global-js
+
+site_logo:
+  path: 'themes/webathon_theme/assets/images/Webathon_logo.png'
+  use_default: false

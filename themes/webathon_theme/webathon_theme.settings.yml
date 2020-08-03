@@ -1,0 +1,3 @@
+site_logo:
+  path: 'themes/webathon_theme/assets/images/Webathon_logo.png'
+  use_default: false

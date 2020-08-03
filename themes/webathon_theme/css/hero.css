@@ -1,0 +1,74 @@
+
+.icon-group > ul{
+    display: grid;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 3fr));
+    margin-top: -50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    grid-gap: 1rem;
+    list-style: none;
+}
+
+.icon-group > ul > li{
+    text-align: center;
+    font-size: 20px;
+}
+
+.icon-img img{
+    background-color: white;
+    border-radius: 90px;
+    padding: 20px;
+    box-shadow:  0px 4px 9px  #d4d4d4;
+}
+
+.icon-img img{
+    max-width: 100px;
+}
+
+.hero {
+    background: url('/themes/webathon_theme/assets/images/Webathon_lumberjack\ man.png') center;
+    background-size: cover;
+    padding: 4rem 2rem;
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.hero-inner{
+    padding-left: 60px;
+    max-width: 400px;
+}
+
+.hero h1, .hero h2{
+    color: white;
+}
+
+.hero h1 {
+    padding-top: 100px;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.hero h2 {
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.orange-bold {
+    color: #FFA000;
+    font-weight: bold;
+}
+
+.orange-button {
+    background-color: #FFA000;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
